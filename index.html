@@ -131,7 +131,7 @@
     <!-- Typeform survey $5-->
     <div class="typeform_wrapper">
       <div class="super_1337_scrollbar_cover"></div>
-        <div hidden id="5" class="typeform-widget" data-url="https://nwams.typeform.com/to/VaPwMY"
+        <div id="5" class="typeform-widget" data-url="https://nwams.typeform.com/to/VaPwMY"
              data-text="Project Hermes"
              style="width:100%; height: 350px;"></div>
     </div>
@@ -260,18 +260,25 @@
       document.getElementById('5').style.display = 'block'; // show $5 survey
     } else if (hexa[0] === "2" || hexa[0] === "3") {
       document.getElementById('10').style.display = 'block'; // show $10 survey
+      document.getElementById('5').style.display = 'none';
     } else if (hexa[0] === "4" || hexa[0] === "5") {
       document.getElementById('15').style.display = 'block'; // show $15 survey
+      document.getElementById('5').style.display = 'none';
     } else if (hexa[0] === "6" || hexa[0] === "7") {
       document.getElementById('20').style.display = 'block'; // show $20 survey
+      document.getElementById('5').style.display = 'none';
     } else if (hexa[0] === "8" || hexa[0] === "9") {
       document.getElementById('25').style.display = 'block'; // show $25 survey
+      document.getElementById('5').style.display = 'none';
     } else if (hexa[0].toLowerCase() === "a" || hexa[0].toLowerCase() === "b") {
       document.getElementById('30').style.display = 'block'; // show $30 survey
+      document.getElementById('5').style.display = 'none';
     } else if (hexa[0].toLowerCase() === "c" || hexa[0].toLowerCase() === "d") {
       document.getElementById('35').style.display = 'block'; // show $35 survey
+      document.getElementById('5').style.display = 'none';
     } else if (hexa[0].toLowerCase() === "e" || hexa[0].toLowerCase() === "f") {
       document.getElementById('40').style.display = 'block'; // show $40 survey
+      document.getElementById('5').style.display = 'none';
     }
     });
 </script>
