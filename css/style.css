@@ -14,7 +14,7 @@ body {
     html {
         font-size: 10px
     }
-    #video-holder {
+    #showcase-holder {
         height: 350px;
         background-image: url(../showcase.png)
     }
@@ -65,7 +65,7 @@ body {
     header {
         text-align: center
     }
-    #video-holder {
+    #showcase-holder {
         height: 160px;
         background-image: url(../showcase.png)
     }
@@ -111,7 +111,7 @@ body {
     header {
         text-align: center
     }
-    #video-holder {
+    #showcase-holder {
         background-image: url(../showcase.png);
         height: 250px
     }
@@ -144,7 +144,7 @@ body {
     header {
         text-align: center
     }
-    #video-holder {
+    #showcase-holder {
         background-image: url(../showcase.png);
         height: 250px
     }
@@ -369,7 +369,7 @@ header .container {
 .section.footer .footer-menu nav a:hover {
     opacity: 1
 }
-.section #video-holder {
+.section #showcase-holder {
     margin: 0 auto;
     border-radius: 5px;
     display: flex;
@@ -384,23 +384,23 @@ header .container {
     background-position: center bottom;
     background-repeat: no-repeat
 }
-.section #video-holder.fullVideo {
+.section #showcase-holder.fullVideo {
     padding-bottom: 2rem;
     background-image: none
 }
-.section #video-holder:hover .text {
+.section #showcase-holder:hover .text {
     background-color: #0D8C6F
 }
-.section #video-holder iframe {
+.section #showcase-holder iframe {
     width: 100%;
     height: 100%
 }
-.section #video-holder #video {
+.section #showcase-holder #video {
     display: none;
     width: 100%;
     height: 100%
 }
-.section #video-holder .text {
+.section #showcase-holder .text {
     font-size: 2.5rem;
     font-weight: 300;
     background-color: #4ABCA2;
@@ -569,148 +569,6 @@ header .container {
 #hero :-ms-input-placeholder {
     color: #a8bbc9
 }
-body.blog-page header {
-    display: block
-}
-body.blog-page .logo-header {
-    margin-bottom: 0
-}
-body.blog-page #hero {
-    background-color: #0A4871;
-    background-repeat: no-repeat;
-    background-size: 320px;
-    background-position: center center
-}
-body.blog-page #hero h1 {
-    text-align: left;
-    font-size: 3.8rem;
-    font-weight: 400;
-    margin-bottom: 0;
-    margin-top: .5em
-}
-body.blog-page #hero h2 {
-    font-weight: 400;
-    font-size: 4rem
-}
-body.blog-page #hero h2 a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: 400
-}
-body.blog-page #hero h2 a:hover {
-    text-decoration: underline
-}
-body.blog-page .container {
-    max-width: 900px
-}
-body.blog-page .section.posts {
-    color: #0E222F
-}
-body.blog-page .section.posts .container {
-    max-width: 800px
-}
-body.blog-page .section.posts .post {
-    margin: 4rem 0
-}
-body.blog-page .section.posts .post .post-identity {
-    width: 8rem;
-    flex-shrink: 0;
-    -webkit-flex-shrink: 0;
-    padding: .6rem 1.5rem;
-    margin: 0 auto
-}
-body.blog-page .section.posts .post .post-identity .photo {
-    width: 8rem;
-    height: 8rem;
-    background-color: #d3d3d3;
-    background-repeat: no-repeat;
-    background-size: contain;
-    box-sizing: border-box;
-    border-radius: 50%
-}
-body.blog-page .section.posts .post .post-identity .name {
-    margin: .5rem 0;
-    font-size: 1.5rem
-}
-body.blog-page .section.posts .post .post-identity .name span {
-    display: block
-}
-body.blog-page .section.posts .post .post-identity .name .links {
-    font-size: 80%;
-    opacity: .6
-}
-body.blog-page .section.posts .post .post-identity .name .links a {
-    text-decoration: none;
-    color: inherit
-}
-body.blog-page .section.posts .post .post-identity .name .links a:hover {
-    text-decoration: underline
-}
-body.blog-page .section.posts .post .post-content {
-    flex-grow: 1;
-    -webkit-flex-grow: 1;
-    box-sizing: border-box;
-    padding: 0 2rem
-}
-body.blog-page .section.posts .post .post-content .post-header {
-    margin: 3rem 0 5rem 0
-}
-body.blog-page .section.posts .post .post-content .post-header h2 {
-    text-align: center;
-    font-size: 3.5rem;
-    margin: 0;
-    font-weight: 300
-}
-body.blog-page .section.posts .post .post-content .post-header h2 a {
-    color: inherit;
-    text-decoration: none
-}
-body.blog-page .section.posts .post .post-content .post-header h2 a:hover {
-    text-decoration: underline
-}
-body.blog-page .section.posts .post .post-content .post-header h5 {
-    font-size: 2rem;
-    color: #0E222F;
-    text-align: center;
-    opacity: .7
-}
-body.blog-page .section.posts .post .post-content .post-body {
-    font-family: ff-tisa-web-pro, serif
-}
-body.blog-page .section.posts .post .post-content .post-body li, body.blog-page .section.posts .post .post-content .post-body p {
-    font-size: 2rem;
-    font-family: ff-tisa-web-pro, serif
-}
-body.blog-page .section.posts .post .post-content .post-body h3 {
-    font-size: 2.5rem;
-    font-weight: 300
-}
-body.blog-page .section.posts .post .post-content .post-body li {
-    margin: 2rem 0
-}
-body.blog-page .section.posts .post .post-content .post-body img {
-    max-width: 450px;
-    width: 100%;
-    margin: 0 auto;
-    display: block
-}
-body.blog-page .section.posts .post .post-content .post-moretag {
-    padding: 1rem 0;
-    background-color: rgba(0, 0, 0, .1);
-    cursor: pointer;
-    width: 10%;
-    margin: 0 auto;
-    font-size: 1.2rem;
-    text-align: center;
-    transition: all 125ms;
-    color: #000
-}
-body.blog-page .section.posts .post .post-content .post-moretag:hover {
-    width: 100%
-}
-body.blog-page .photo[data-author=adam] {
-    background-image: url(profile_pics/adam_temp.jpg)
-}
 body.faq-page header {
     display: block
 }
@@ -803,18 +661,6 @@ body.team-page #hero h3 {
     text-align: center
 }
 body.team-page #hero .logo-header nav a {
-    color: #0E222F
-}
-body.team-page .section.team {
-    padding-top: 4rem;
-    padding-bottom: 0;
-    color: #0E222F
-}
-body.team-page .team-members h2 {
-    font-weight: 300;
-    font-size: 3rem;
-    padding: 4rem 0;
-    margin: 0;
     color: #0E222F
 }
 body.team-page .teamWrapper {
@@ -931,191 +777,6 @@ body.team-page .section.hiring .container .button {
     border-radius: .5rem;
     cursor: pointer
 }
-body.team-page .section.hiring .container .button:hover {
-    background-color: #fff;
-    color: #0E222F
-}
-body.team-page .section.investors {
-    color: #0B4A71;
-    padding: 5rem 0;
-    text-align: center
-}
-body.team-page .section.investors h2 {
-    font-weight: 300;
-    font-size: 2.5rem
-}
-body.team-page .section.investors h3 {
-    font-weight: 400;
-    font-size: 1.5rem
-}
-body.team-page #member-1 .photo {
-    background-image: url(profile_pics/adam_temp.jpg)
-}
-body.team-page #member-2 .photo {
-    background-image: url(profile_pics/ashton_temp.jpg)
-}
-body.team-page #member-3 .photo {
-    background-image: url(profile_pics/antonio_temp.jpg)
-}
-body.team-page #member-4 .photo {
-    background-image: url(profile_pics/tarak_temp.jpg)
-}
-body.team-page #member-5 .photo {
-    background-image: url(profile_pics/noah_temp.jpg)
-}
-body.team-page #member-6 .photo {
-    background-image: url(profile_pics/jay_temp.jpg)
-}
-body.team-page #member-7 .photo {
-    background-image: url(profile_pics/alex_temp.jpg)
-}
-body.team-page #member-8 .photo {
-    background-image: url(profile_pics/jackie_temp.jpg)
-}
-body.team-page #member-10 .photo {
-    background-image: url(profile_pics/keien_temp.jpg)
-}
-body.team-page #member-11 .photo {
-    background-image: url(profile_pics/hrysoula.jpg)
-}
-body.team-page #member-12 .photo {
-    background-image: url(profile_pics/ianto.jpg)
-}
-body.team-page #member-13 .photo {
-    background-image: url(profile_pics/daniel.jpg)
-}
-body.team-page #member-9 .photo {
-    background-image: url(profile_pics/juan_temp.jpg)
-}
-body.team-page #member-1:hover .photo {
-    background-image: url(profile_pics/hover/adam.jpg)
-}
-body.team-page #member-2:hover .photo {
-    background-image: url(profile_pics/hover/ashton.jpg)
-}
-body.team-page #member-3:hover .photo {
-    background-image: url(profile_pics/hover/antonio.jpg)
-}
-body.team-page #member-4:hover .photo {
-    background-image: url(profile_pics/hover/tarak.jpg)
-}
-body.team-page #member-5:hover .photo {
-    background-image: url(profile_pics/hover/noah.jpg)
-}
-body.team-page #member-6:hover .photo {
-    background-image: url(profile_pics/hover/jay.jpg)
-}
-body.team-page #member-7:hover .photo {
-    background-image: url(profile_pics/hover/alex.jpg)
-}
-body.team-page #member-8:hover .photo {
-    background-image: url(profile_pics/hover/jackie.jpg)
-}
-body.team-page #member-9:hover .photo {
-    background-image: url(profile_pics/juan_temp.jpg)
-}
-body.team-page #member-10:hover .photo {
-    background-image: url(profile_pics/keien_temp.jpg)
-}
-body.team-page #member-11:hover .photo {
-    background-image: url(profile_pics/hrysoula.jpg)
-}
-body.team-page #member-12:hover .photo {
-    background-image: url(profile_pics/ianto.jpg)
-}
-body.team-page #member-13:hover .photo {
-    background-image: url(profile_pics/daniel.jpg)
-}
-body.jobs-page h3 {
-    font-size: 1.8rem;
-    font-weight: 400;
-    margin-bottom: 0
-}
-body.jobs-page #hero {
-    background-repeat: no-repeat;
-    background-position: center bottom -30px, left -300px bottom -650px, calc(50% + 500px) 50%;
-    background-size: 1600px, 1000px, 230px;
-    background-color: #0a2531;
-    padding-bottom: 0
-}
-body.jobs-page #hero .title {
-    background-repeat: no-repeat;
-    background-position: center bottom;
-    background-size: auto 30rem;
-    padding-bottom: 35rem;
-    padding-top: 15rem
-}
-body.jobs-page #hero h1 {
-    font-size: 3.8rem;
-    font-weight: 400
-}
-body.jobs-page #hero h2 {
-    font-weight: 300;
-    font-size: 4.5rem
-}
-body.jobs-page #hero h2 a {
-    text-decoration: none;
-    font-weight: 400;
-    color: inherit
-}
-body.jobs-page #hero h2 a:hover {
-    text-decoration: underline
-}
-body.jobs-page #hero h3 {
-    text-transform: uppercase;
-    text-align: center
-}
-body.jobs-page .section.culture {
-    background-color: #b1d4e3;
-    color: #0E222F;
-    margin: 0
-}
-body.jobs-page .section.culture .intro {
-    max-width: 60rem
-}
-body.jobs-page .section.culture .container {
-    padding: 1rem
-}
-body.jobs-page .section.culture a {
-    text-decoration: none;
-    font-weight: 700;
-    color: inherit
-}
-body.jobs-page .section.culture a:hover {
-    text-decoration: underline
-}
-body.jobs-page .section.culture h3 {
-    text-transform: uppercase;
-    font-weight: 500;
-    margin: 0;
-    padding: 0
-}
-body.jobs-page .section.culture li, body.jobs-page .section.culture p {
-    font-size: 1.7rem;
-    margin: 1rem 0
-}
-body.jobs-page .section.culture .culture-section {
-    display: flex;
-    display: -webkit-flex;
-    align-items: stretch;
-    -webkit-align-items: stretch;
-    margin: 4rem 0
-}
-body.jobs-page .section.culture .culture-section .content {
-    flex-grow: 1;
-    -webkit-flex-grow: 1;
-    padding: 2rem;
-    background-color: rgba(255, 255, 255, .6)
-}
-body.jobs-page .section.culture .culture-section .content h3 {
-    padding: 0
-}
-body.jobs-page .section.culture .culture-section .pic {
-    background-color: rgba(255, 255, 255, .3);
-    width: 200px;
-    flex-shrink: 0;
-    -webkit-flex-shrink: 0
-}
 .linear-gradient-dark-scheme {
     background-color: #0A4871
 }
@@ -1216,4 +877,125 @@ body.jobs-page .section.culture .culture-section .pic {
     top: 0;
     right: 0;
     z-index: 9999;
+}
+
+/*------Signup at Bottom-------*/
+#bottom-signup-form {
+    /*margin: 4rem auto;*/
+    text-align: center;
+    max-width: 74rem;
+    padding: 1rem
+}
+#bottom-signup-form h5 {
+    margin-top: 1rem
+}
+#bottom-signup-form .facebook-button, #bottom-signup-form .twitter-button {
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 1rem;
+    opacity: .5;
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: 125ms opacity
+}
+#bottom-signup-form .facebook-button:hover, #bottom-signup-form .twitter-button:hover {
+    opacity: 1
+}
+#bottom-signup-form .signup-email {
+    font-size: 1.8rem;
+    padding: 1.2rem;
+    margin-right: 1.5rem;
+    color: #fff;
+    outline: 0;
+    border-radius: 5px;
+    font-family: Roboto, sans-serif;
+    border: 1px solid transparent;
+    transition: 125ms border;
+    flex-grow: 1;
+    -webkit-flex-grow: 1;
+}
+#bottom-signup-form .signup-email.error {
+    border: 1px solid red !important
+}
+#bottom-signup-form .signup-email:focus {
+    border: 1px solid #fff
+}
+#bottom-signup-form #bottom-signup-button {
+    -webkit-appearance: none;
+    font-size: 1.8rem;
+    padding: 1.2rem 2rem;
+    color: #fff;
+    flex-shrink: 0;
+    -webkit-flex-shrink: 0;
+    font-weight: 700;
+    border-radius: 5px;
+    border: 0;
+    font-family: Roboto, sans-serif;
+    cursor: pointer;
+    transition: 125ms background-color;
+    background-color: #384e6b;
+}
+#bottom-signup-form #bottom-signup-button:hover {
+    background-color: #2696D4
+}
+#bottom-signup-form .survey {
+    max-width: 74rem;
+    margin: 0 auto;
+    text-align: left;
+    padding: 1rem
+}
+#bottom-signup-form .survey p {
+    font-size: 2rem
+}
+#bottom-signup-form .survey .option {
+    font-size: 18px;
+    padding: 8px;
+    background-color: rgba(255, 255, 255, .2);
+    transition: 125ms background-color;
+    margin: 5px;
+    cursor: pointer;
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid-column
+}
+#bottom-signup-form .survey .option:first-child {
+    margin-top: 0
+}
+#bottom-signup-form .survey .option:hover {
+    background-color: rgba(255, 255, 255, .3)
+}
+#bottom-signup-form .form-step-1 {
+    display: flex;
+    display: -webkit-flex;
+    max-width: 50rem;
+    padding: 1rem;
+    justify-content: center;
+    -webkit-justify-content: center;
+    margin: 0 auto
+}
+#bottom-signup-form .form-step-1.animate {
+    animation: pulsate 250ms forwards 2 alternate
+}
+#bottom-signup-form.step-1 form:not(.form-step-1) {
+    display: none
+}
+.survey-section .signup-email {
+    background-color: #2f373f;
+}
+.signup-email:focus {
+    border: 1px solid #384e6b;
+}
+.survey-section ::-webkit-input-placeholder {
+    color: #a8bbc9
+}
+.survey-section :-moz-placeholder {
+    color: #a8bbc9
+}
+.survey-section ::-moz-placeholder {
+    color: #a8bbc9
+}
+.survey-section :-ms-input-placeholder {
+    color: #a8bbc9
 }
