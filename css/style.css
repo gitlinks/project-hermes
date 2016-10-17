@@ -378,7 +378,6 @@ header .container {
     align-content: center;
     position: relative;
     justify-content: center;
-    cursor: pointer;
     transition: all 250ms;
     background-size: contain;
     background-position: center bottom;
