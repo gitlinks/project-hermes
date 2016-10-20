@@ -90,7 +90,7 @@
 
         <input id="MERGE0" class="signup-email" type="text" name="MERGE0" size="25" autocorrect="off"
                autocapitalize="off" spellcheck="false" placeholder="Email" value="">
-        <input id="signup-button" type="submit" value="Yes, I want this">
+        <input id="signup-button" type="submit" value="Yes, I want this" onclick="recordClick()">
       </form>
       <p style="font-size: 2.4rem; color: #ACB7C1;">Price: $4.99/mo.</p>
     </div>
@@ -107,7 +107,7 @@
     <div class="feature-content">
       <h4>Get recommendations while searching</h4>
       <p>Looking for a new library? Need to phone-a-friend? This is one step ahead of you. As you type, it shows the
-        most relevant packages ordered from the number of people in your network using it. Stop learning to use
+        most relevant packages ordered by the number of people in your network using it. Stop learning to use
         libraries no one can help you with.</p>
     </div>
     <img src="searchgitlinks.png"/>
@@ -166,6 +166,15 @@
 <div id="mainimgtst"></div>
 
 <script>
+  // record event in google analytics goals
+  function recordClick() {
+    ga('send', {
+      hitType: 'event',
+      eventCategory: 'Project Hermes',
+      eventAction: 'Clicked Signup Button'
+    });
+  }
+
   // smooth scrolling between sections
   $(function () {
     $('a[href*="#"]:not([href="#"])').click(function () {
